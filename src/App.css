@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  margin: 10px;
+}
+input {
+  border-radius: 99px;
+  height: 3vh;
+}
+input:focus {
+  background-color: rgb(191, 134, 134);
+}
+input:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+select {
+  width: 100px;
+  height: 33px;
+}
+
+select:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.style1 {
+  background-color: lightblue;
+  font-variant: small-caps;
+  border-radius: 10px 30px 50px 99px;
+  box-shadow: 1px 2px 8px 8px yellow;
+}
+
+.style2 {
+  background-color: lightgreen;
+  color: black;
+  border-radius: 99px;
+  box-shadow: 1px 2px 8px 8px red;
+}
+
+.style3 {
+  background-color: lightcoral;
+  font-family: cursive;
+  border-radius: 20px 50px;
+  box-shadow: 1px 2px 8px 8px green;
+}
+button {
+  width: 6vw;
+  height: 5vh;
+  border-radius: 99px;
+}
+button:hover {
+  background-color: chartreuse;
+}
+.male-style {
+  background-color: lightblue;
+}
+
+.female-style {
+  background-color: lightpink;
 }
